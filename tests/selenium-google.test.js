@@ -12,7 +12,7 @@ describe("Selenium Testing", () => {
   });
 
   const setDelay = async () => {
-    await driver.sleep(2000);
+    await driver.sleep(1000);
   };
 
   it("should open homepage", async () => {
